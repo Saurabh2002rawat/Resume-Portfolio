@@ -15,10 +15,10 @@ const Portfolio = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, deserunt.
                     </p>
                     <div className="links" >
-                        <a href="https://vyapaar-crypto-trader.vercel.app/">
+                        <a href="https://vyapaar-crypto-trader.vercel.app/" title="GitHub Link" >
                               <i className="fa-brands fa-github fa-xl"></i>
                         </a>
-                        <a href="https://vyapaar-crypto-trader.vercel.app/">
+                        <a href="https://vyapaar-crypto-trader.vercel.app/" title="Live Link" >
                               <i className="fa-solid fa-up-right-from-square"></i>
                         </a>
                      </div>
@@ -33,10 +33,10 @@ const Portfolio = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, deserunt.
                     </p>
                     <div className="links" >
-                        <a href="https://vyapaar-crypto-trader.vercel.app/">
+                        <a href="https://vyapaar-crypto-trader.vercel.app/" title="GitHub Link" >
                               <i className="fa-brands fa-github fa-xl"></i>
                         </a>
-                        <a href="https://nitw-dispensary-frontend-one.vercel.app/Landingpage/index.html">
+                        <a href="https://nitw-dispensary-frontend-one.vercel.app/Landingpage/index.html"  title="Live Link" >
                               <i className="fa-solid fa-up-right-from-square"></i>
                         </a>
                      </div>
@@ -51,10 +51,10 @@ const Portfolio = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, deserunt.
                     </p>
                     <div className="links" >
-                        <a href="https://github.com/Saurabh2002rawat/EnterTheMatrix">
+                        <a href="https://github.com/Saurabh2002rawat/EnterTheMatrix" title="GitHub Link" >
                               <i className="fa-brands fa-github fa-xl"></i>
                         </a>
-                        <a href="https://github.com/Saurabh2002rawat/EnterTheMatrix">
+                        <a href="https://github.com/Saurabh2002rawat/EnterTheMatrix" title="Live Link" >
                               <i className="fa-solid fa-up-right-from-square"></i>
                         </a>
                      </div>
@@ -70,10 +70,10 @@ const Portfolio = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, deserunt.
                     </p>
                     <div className="links" >
-                        <a href="https://saurabh2002rawat.github.io/TicTacToe/">
+                        <a href="https://saurabh2002rawat.github.io/TicTacToe/" title="GitHub Link" >
                               <i className="fa-brands fa-github fa-xl"></i>
                         </a>
-                        <a href="https://github.com/Saurabh2002rawat/EnterTheMatrix">
+                        <a href="https://github.com/Saurabh2002rawat/EnterTheMatrix" title="Live Link" >
                               <i className="fa-solid fa-up-right-from-square"></i>
                         </a>
                      </div>
@@ -88,10 +88,10 @@ const Portfolio = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, deserunt.
                         </p>
                         <div className="links" >
-                        <a href="https://saurabh2002rawat.github.io/Vyanga/">
+                        <a href="https://saurabh2002rawat.github.io/Vyanga/" title="GitHub Link" >
                               <i className="fa-brands fa-github fa-xl"></i>
                         </a>
-                        <a href="https://github.com/Saurabh2002rawat/EnterTheMatrix">
+                        <a href="https://github.com/Saurabh2002rawat/EnterTheMatrix" title="Live Link" >
                               <i className="fa-solid fa-up-right-from-square"></i>
                         </a>
                      </div>
@@ -106,10 +106,10 @@ const Portfolio = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, deserunt.
                         </p>
                         <div className="links" >
-                        <a href="https://vyapaar-crypto-trader.vercel.app/">
+                        <a href="https://vyapaar-crypto-trader.vercel.app/" title="GitHub Link" >
                               <i className="fa-brands fa-github fa-xl"></i>
                         </a>
-                        <a href="https://github.com/Saurabh2002rawat/EnterTheMatrix">
+                        <a href="https://github.com/Saurabh2002rawat/EnterTheMatrix" title="Live Link" >
                               <i className="fa-solid fa-up-right-from-square"></i>
                         </a>
                      </div>
