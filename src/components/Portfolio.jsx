@@ -1,6 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Portfolio = () => {
+
+   const [showMore, setShowMore] = useState () ;
+
+   const toggleMore = () => {
+      setShowMore ( prev => !prev ) ;
+   }
+
+   const hiddenClass = showMore ? 'hidden show' : 'hidden' ;
+
   return (
     <div id="portfolio">
     <div className="container" id="port">
@@ -15,11 +24,11 @@ const Portfolio = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, deserunt.
                     </p>
                     <div className="links" >
-                        <a href="https://vyapaar-crypto-trader.vercel.app/" title="GitHub Link" >
-                              <i className="fa-brands fa-github fa-xl"></i>
+                        <a href="https://github.com/Saurabh2002rawat/Vyapaar-CryptoTrader.git" title="GitHub Link" >
+                           <i className="fa-brands fa-github fa-xl"></i>
                         </a>
                         <a href="https://vyapaar-crypto-trader.vercel.app/" title="Live Link" >
-                              <i className="fa-solid fa-up-right-from-square"></i>
+                           <i className="fa-solid fa-up-right-from-square"></i>
                         </a>
                      </div>
                 </div>
@@ -33,11 +42,11 @@ const Portfolio = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, deserunt.
                     </p>
                     <div className="links" >
-                        <a href="https://vyapaar-crypto-trader.vercel.app/" title="GitHub Link" >
-                              <i className="fa-brands fa-github fa-xl"></i>
+                        <a href="https://github.com/Saurabh2002rawat/Chikatsalaya-NITW-Clinic.git" title="GitHub Link" >
+                           <i className="fa-brands fa-github fa-xl"></i>
                         </a>
-                        <a href="https://nitw-dispensary-frontend-one.vercel.app/Landingpage/index.html"  title="Live Link" >
-                              <i className="fa-solid fa-up-right-from-square"></i>
+                        <a href="https://chikitsalaya-vercel-frontend.vercel.app/"  title="Live Link" >
+                           <i className="fa-solid fa-up-right-from-square"></i>
                         </a>
                      </div>
                 </div>
@@ -52,17 +61,17 @@ const Portfolio = () => {
                     </p>
                     <div className="links" >
                         <a href="https://github.com/Saurabh2002rawat/EnterTheMatrix" title="GitHub Link" >
-                              <i className="fa-brands fa-github fa-xl"></i>
+                           <i className="fa-brands fa-github fa-xl"></i>
                         </a>
-                        <a href="https://github.com/Saurabh2002rawat/EnterTheMatrix" title="Live Link" >
-                              <i className="fa-solid fa-up-right-from-square"></i>
-                        </a>
+                        {/* <a href="https://github.com/Saurabh2002rawat/EnterTheMatrix" title="Live Link" >
+                           <i className="fa-solid fa-up-right-from-square"></i>
+                        </a> */}
                      </div>
                 </div>
             </div>
             
 
-            <div className="work hidden">
+            <div className={`work ${hiddenClass}`}>
             <img src="/ticTacToe.png" />
                 <div className="layer">
                     <h3>Tic-Tac-Toe</h3>
@@ -70,54 +79,54 @@ const Portfolio = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, deserunt.
                     </p>
                     <div className="links" >
-                        <a href="https://saurabh2002rawat.github.io/TicTacToe/" title="GitHub Link" >
-                              <i className="fa-brands fa-github fa-xl"></i>
+                        <a href="https://github.com/Saurabh2002rawat/TicTacToe.git" title="GitHub Link" >
+                           <i className="fa-brands fa-github fa-xl"></i>
                         </a>
-                        <a href="https://github.com/Saurabh2002rawat/EnterTheMatrix" title="Live Link" >
-                              <i className="fa-solid fa-up-right-from-square"></i>
+                        <a href="https://tic-tac-toe-ruddy-sigma.vercel.app/" title="Live Link" >
+                           <i className="fa-solid fa-up-right-from-square"></i>
                         </a>
                      </div>
                 </div>
             </div>
 
-            <div className="work hidden" >
+            <div className={`work ${hiddenClass}`} >
                 <img src="/chutkula.jpeg" />
                     <div className="layer">
-                        <h3>HasyaRas Jokes Generator</h3>
+                        <h3>Vyanga Jokes Generator</h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, deserunt.
                         </p>
                         <div className="links" >
-                        <a href="https://saurabh2002rawat.github.io/Vyanga/" title="GitHub Link" >
-                              <i className="fa-brands fa-github fa-xl"></i>
+                        <a href="https://github.com/Saurabh2002rawat/Vyanga.git" title="GitHub Link" >
+                           <i className="fa-brands fa-github fa-xl"></i>
                         </a>
-                        <a href="https://github.com/Saurabh2002rawat/EnterTheMatrix" title="Live Link" >
-                              <i className="fa-solid fa-up-right-from-square"></i>
+                        <a href="https://vyanga.vercel.app/" title="Live Link" >
+                           <i className="fa-solid fa-up-right-from-square"></i>
                         </a>
                      </div>
                     </div>
             </div>
 
-            <div className="work hidden">
-                <img src="/portfolio.png" />
+            <div className={`work ${hiddenClass}`}>
+                <img src="/resume.png" />
                     <div className="layer">
                         <h3>Resume-Portfolio</h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, deserunt.
                         </p>
                         <div className="links" >
-                        <a href="https://vyapaar-crypto-trader.vercel.app/" title="GitHub Link" >
-                              <i className="fa-brands fa-github fa-xl"></i>
+                        <a href="https://github.com/Saurabh2002rawat/Resume-Portfolio.git" title="GitHub Link" >
+                           <i className="fa-brands fa-github fa-xl"></i>
                         </a>
-                        <a href="https://github.com/Saurabh2002rawat/EnterTheMatrix" title="Live Link" >
-                              <i className="fa-solid fa-up-right-from-square"></i>
+                        <a href="https://resume-portfolio-blond-five.vercel.app/" title="Live Link" >
+                           <i className="fa-solid fa-up-right-from-square"></i>
                         </a>
                      </div>
                     </div>
             </div>
                         
         </div>
-        <a className="btn" id="seeMore" onClick="more()">See More</a>
+        <a className="btn" id="showMore" onClick={toggleMore}> { showMore ? "Show Less" : "Show More" } </a>
     </div>
 </div>
   )
