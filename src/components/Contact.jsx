@@ -44,10 +44,10 @@ const Contact = () => {
 
             <div className="contact-right">
                 <form ref={formRef} onSubmit={sendEmail}>
-                    <input type="text" id="name" placeholder="Your Name" required />
-                    <input type="email" id="Email" placeholder="abc@example.com" required />
-                    <input type="text" id="subject" placeholder="Subject..." required />
-                    <textarea id="msg" rows="6" placeholder="Write Here..."></textarea>
+                    <input type="text" name="Name" placeholder="Your Name" required />
+                    <input type="email" name="Email" placeholder="abc@example.com" required />
+                    <input type="text" name="Subject" placeholder="Subject..." required />
+                    <textarea name="Message" rows="6" placeholder="Write Here..."></textarea>
                     <button type="submit" className="btn btn2">Submit</button>
                 </form>
 

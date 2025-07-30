@@ -9,10 +9,10 @@ const Portfolio = () => {
    }
 
    const hiddenClass = showMore ? 'hidden show' : 'hidden' ;
-
-  return (
-    <div id="portfolio">
-    <div className="container" id="port">
+   return (
+      
+      <div id="portfolio">
+   <div className="container">   {/*  id="port" */}
         <h1 className="sub">Project Work</h1>
         <div className="work-list">
 

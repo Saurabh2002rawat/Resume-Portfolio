@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const About = () => {
 
-   
+  const [activeTab, setActiveTab ] = useState ('hobbies') ;
 
+  const handleTab = (tab) => {
+   setActiveTab (tab) ;
+  }
 
   return (
     <div id="about">
@@ -12,40 +15,40 @@ const About = () => {
             <div className="about-col-1">
                 <img src="/about.png" />
             </div>
-            <div class="about-col-2">
+            <div className="about-col-2">
                 <h1 className="sub">About Me</h1>
                 <p> 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolorem magnam voluptas quo culpa quia doloremque quod voluptates recusandae quidem nobis itaque, esse dicta quibusdam suscipit voluptatum laudantium rem fugiat voluptate at reprehenderit nam deleniti possimus! Consequatur, soluta nobis enim qui sunt maiores perspiciatis doloremque eligendi. Quibusdam distinctio sed iste! 
+                  Hi! I 'm Saurabh Rawat, currently pursuing Master of Computer Applications from National Institute of Technology, Warangal.
+                  I have done Bachelor of Computer Applications from Graphic Era, Dehradun. I have been a member of National Service Scheme for 3 years.
+                  I like Sketching, coding, trekking and much more. 
+                  I believe in living life to the fullest. That's all there !
                 </p>
+
                 <div className="tab-titles">
-                    <p className="tab-links active-link" onClick="opentab('skills')">Skills</p>
-                    <p className="tab-links" onClick="opentab('exp')">Experience</p>
-                    <p className="tab-links" onClick="opentab('hobbies')">Hobbies</p>
-                </div>
-                <div className="tab-contents active-tab" id="skills">
-                    <ul>
-                        <li><span>UI/UX</span><br />Designing</li>
-                        <li><span>UI/UX</span><br />Designing</li>
-                        <li><span>UI/UX</span><br />Designing</li>
-                    </ul>
-                </div>
+                  <p className={`tab-links ${activeTab==='hobbies' ? 'active-link' : ''}`} 
+                     onClick={ ()=> handleTab('hobbies')} >  
+                     Hobbies
+                  </p>
+                  <p className={`tab-links ${activeTab==='responsibilities' ? 'active-link' : '' }`}
+                     onClick={ ()=> handleTab('responsibilities')} >
+                     Responsibilites
+                  </p>
+               </div>
 
-                <div className="tab-contents" id="exp">
-                    <ul>
-                        <li><span>CDS</span><br />Designing</li>
-                        <li><span>UI/UX</span><br />Designing</li>
-                        <li><span>UI/UX</span><br />Designing</li>
-                    </ul>
-                </div>
-
-                <div className="tab-contents" id="hobbies">
-                    <ul>
-                        <li><span>defense</span><br />Designing</li>
-                        <li><span>UI/UX</span><br />Designing</li>
-                        <li><span>UI/UX</span><br />Designing</li>
-                    </ul>
-                </div>
-
+               <div className={`tab-contents ${activeTab==='hobbies' ? 'active-tab' : ''}`}>
+                  <ul>
+                     <li><span>Defence</span><br/> Exploring about Armed Forces d</li>
+                     <li><span>Sketching</span><br/> Drawing and Painting</li>
+                     <li><span>Trekking</span><br/> Hiking and adventure trips</li>
+                  </ul>
+               </div>
+               <div className={`tab-contents ${activeTab==='responsibilities' ? 'active-tab' : ''}`} >
+                  <ul>
+                     <li><span>Joint Secretary</span><br/> EA&HAM Club (2024-25) </li>
+                     <li><span>CRC</span><br/> MCA Iyr Class Representative Committee (2023-24) </li>
+                     <li><span>House Captain</span><br/> Class XII (2018-19) </li>
+                  </ul>
+               </div>
             </div>
         </div>
     </div>
