@@ -52,24 +52,23 @@ const Portfolio = () => {
                 </div>
             </div>
 
-            <div className="work">
-                <img src="/etm.png" />
-                <div className="layer">
-                    <h3>Enter The Matrix</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, deserunt.
-                    </p>
-                    <div className="links" >
-                        <a href="https://github.com/Saurabh2002rawat/EnterTheMatrix" title="GitHub Link" >
+             <div className="work" >
+                <img src="/snake.png" />
+                    <div className="layer">
+                        <h3>Resume-Portfolio</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, deserunt.
+                        </p>
+                        <div className="links" >
+                        <a href="https://github.com/Saurabh2002rawat/SnakeGame.git" title="GitHub Link" >
                            <i className="fa-brands fa-github fa-xl"></i>
                         </a>
-                        {/* <a href="https://github.com/Saurabh2002rawat/EnterTheMatrix" title="Live Link" >
+                        <a href="https://snake-game-hazel-seven.vercel.app/" title="Live Link" >
                            <i className="fa-solid fa-up-right-from-square"></i>
-                        </a> */}
+                        </a>
                      </div>
-                </div>
+                    </div>
             </div>
-            
 
             <div className={`work ${hiddenClass}`}>
             <img src="/ticTacToe.png" />
@@ -107,6 +106,39 @@ const Portfolio = () => {
                     </div>
             </div>
 
+             <div className={`work ${hiddenClass}`}>
+                <img src="/etm.png" />
+                <div className="layer">
+                    <h3>Enter The Matrix</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, deserunt.
+                    </p>
+                    <div className="links" >
+                        <a href="https://github.com/Saurabh2002rawat/EnterTheMatrix" title="GitHub Link" >
+                           <i className="fa-brands fa-github fa-xl"></i>
+                        </a>
+                        {/* <a href="https://github.com/Saurabh2002rawat/EnterTheMatrix" title="Live Link" >
+                           <i className="fa-solid fa-up-right-from-square"></i>
+                        </a> */}
+                     </div>
+                </div>
+            </div>
+            
+            <div className={`work ${hiddenClass}`}>
+                <img src="/stupack.jpg" />
+                    <div className="layer">
+                        <h3>Stu-Pack App</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, deserunt.
+                        </p>
+                        <div className="links" >
+                        <a href="https://github.com/Saurabh2002rawat/StuPack.git" title="GitHub Link" >
+                           <i className="fa-brands fa-github fa-xl"></i>
+                        </a>
+                     </div>
+                    </div>
+            </div>
+            
             <div className={`work ${hiddenClass}`}>
                 <img src="/resume.png" />
                     <div className="layer">
@@ -124,7 +156,7 @@ const Portfolio = () => {
                      </div>
                     </div>
             </div>
-                        
+
         </div>
         <a className="btn" id="showMore" onClick={toggleMore}> { showMore ? "Show Less" : "Show More" } </a>
     </div>

@@ -37,7 +37,7 @@ const About = () => {
 
                <div className={`tab-contents ${activeTab==='hobbies' ? 'active-tab' : ''}`}>
                   <ul>
-                     <li><span>Defence</span><br/> Exploring about Armed Forces d</li>
+                     <li><span>Defence</span><br/> Exploring about Armed Forces</li>
                      <li><span>Sketching</span><br/> Drawing and Painting</li>
                      <li><span>Trekking</span><br/> Hiking and adventure trips</li>
                   </ul>
