@@ -55,7 +55,7 @@ const Portfolio = () => {
              <div className="work" >
                 <img src="/snake.png" />
                     <div className="layer">
-                        <h3>Resume-Portfolio</h3>
+                        <h3>Snake Game</h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, deserunt.
                         </p>
