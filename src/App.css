@@ -83,7 +83,7 @@ nav ul li a:hover::after{
 .header-text h1 span{
     color: var(--themeCol);
 }
-nav i{
+.fa-adjust{
    color : var(--themeCol) ;
 }
 nav i:hover{

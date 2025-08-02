@@ -5,7 +5,7 @@ const TypingEffect = () => {
     <div style={
       { fontSize: '33px', display: 'inline-block' , fontWeight:600 ,}
       }>
-      I am a{' '}
+      I 'm a{' '}
       <span className="logo">
         <TypeAnimation
           sequence={[
