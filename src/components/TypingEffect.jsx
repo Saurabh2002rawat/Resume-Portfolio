@@ -5,15 +5,15 @@ const TypingEffect = () => {
     <div style={
       { fontSize: '33px', display: 'inline-block' , fontWeight:600 ,}
       }>
-      I 'm a{' '}
+      I'm a{' '}
       <span className="logo">
         <TypeAnimation
           sequence={[
-            'Web Developer',
+            'Traveller',
             1000,
-            'Problem Solver',
+            'Sketchist',
             1000,
-            'UI/UX designer',
+            'Defence Aspirant',
             1000,
           ]}
           wrapper="span"
@@ -25,4 +25,5 @@ const TypingEffect = () => {
   );
 };
 
+// Web Developer, Problem Solver, UI/UX designer
 export default TypingEffect;
